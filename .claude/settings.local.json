@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "Bash(npm --version:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(xargs grep -l \"HOME_EVENTS\\\\|COMMITTEES\")",
+      "Bash(Get-ChildItem -Path \"d:\\\\Projects\\\\icai\" -Recurse -Directory)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "PowerShell(npm run build 2>&1)"
+    ]
+  }
+}
