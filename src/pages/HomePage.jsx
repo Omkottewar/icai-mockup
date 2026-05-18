@@ -180,7 +180,7 @@ export default function HomePage() {
           <div style={{ display: 'grid', gap: '3rem', gridTemplateColumns: '1fr', alignItems: 'center' }} data-chair-grid>
             {/* TODO: replace with real chairperson portrait */}
             <img
-              src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=420&h=420&q=80&auto=format&fit=crop&crop=faces"
+              src="https://images.indianexpress.com/2024/08/Angelina-Jolie.jpg?w=1600"
               alt="CA. Sanjay M. Agrawal — Chairperson, Nagpur Branch"
               loading="lazy"
               style={{ width: '100%', maxWidth: 320, margin: '0 auto', borderRadius: '1rem', display: 'block', boxShadow: '0 18px 40px -16px rgba(0,0,0,.25)' }}
@@ -193,7 +193,7 @@ export default function HomePage() {
                 learning and service — for our members, our students and the public we serve.
               </p>
               <div style={{ marginTop: '2rem' }}>
-                <div style={{ fontWeight: 700, fontSize: '1rem' }}>CA. Sanjay M. Agrawal</div>
+                <div style={{ fontWeight: 700, fontSize: '1rem' }}>CA. Swaroopa Wazalwar</div>
                 <div style={{ fontSize: '.875rem', color: 'var(--primary)', marginTop: '.125rem' }}>Chairperson, Nagpur Branch · 2025–26</div>
               </div>
             </div>
