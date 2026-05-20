@@ -6,6 +6,7 @@ import CategoryCard from '../components/ui/CategoryCard';
 import WicasaCard from '../components/ui/WicasaCard';
 import HeroCarousel from '../components/ui/HeroCarousel';
 import heroImage from '../assets/icai.png';
+import swaroopa from '../assets/swaroopa.png';
 
 // TODO: replace with branch photos in src/assets/ once available
 const LEADERSHIP_SLIDES = [
@@ -180,8 +181,8 @@ export default function HomePage() {
           <div style={{ display: 'grid', gap: '3rem', gridTemplateColumns: '1fr', alignItems: 'center' }} data-chair-grid>
             {/* TODO: replace with real chairperson portrait */}
             <img
-              src="https://images.indianexpress.com/2024/08/Angelina-Jolie.jpg?w=1600"
-              alt="CA. Sanjay M. Agrawal — Chairperson, Nagpur Branch"
+              src={swaroopa}
+              alt="CA. Swaroopa Wazalwar — Chairperson, Nagpur Branch"
               loading="lazy"
               style={{ width: '100%', maxWidth: 320, margin: '0 auto', borderRadius: '1rem', display: 'block', boxShadow: '0 18px 40px -16px rgba(0,0,0,.25)' }}
             />
